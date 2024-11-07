@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>About Us | Varsity Hackathon 2024</title>
+  </head>
+
+  <style>
+    
+    
+    .big_title
+    {
+      color : rgb(239, 246, 139);
+      color-scheme: light;
+      font-family:'Brush Script MT', cursive, system-ui, sans-serif;
+      font-size: 50px;
+      font-weight: 400;
+      margin-left: 420px;
+      margin-right: 300px;
+      margin-top: 100px ;
+      margin-bottom: 30px;
+    }
+    
+    .all_button
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 95px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 250px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .all_button:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .all_button:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+    .topcommite
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 150px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 10px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+    .topcommite:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .topcommite:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .programme
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 130px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 10px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+    .programme:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .programme:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .pubrelate
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 400px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 10px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .pubrelate:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+
+    .pubrelate:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .publicity
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 300px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 150px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .publicity:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .publicity:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .sponsorship
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 130px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 10px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .sponsorship:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .sponsorship:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .logistics
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 130px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 10px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+    .logistics:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .logistics:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .technical
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 130px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 10px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .technical:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .technical:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+
+    .design
+    {
+      background-color: rgb(19, 30, 35);
+      color:aliceblue;
+      color-scheme: light;
+      border: none;
+      height: 36px;
+      width: 250px;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 20px;
+      cursor : pointer;
+      margin-left : 10px;
+      transition: background-color 0.15s, color 0.15; 
+    }
+    .design:hover
+    {
+      opacity: 0.7;
+      color: aqua;
+    }
+    .design:active{
+      opacity: 0.6;
+      color: rgb(125, 197, 241);
+      background-color: rgb(31, 44, 50);
+      transition: background-color 0.15s, color 0.15; 
+    }
+    .col
+    {
+      color: aliceblue;
+    }
+  </style>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary", class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://vhackusm.com/#">VHACK</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://vhackusm.com/#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://vhackusm.com/tentative">Tentative</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://vhackusm.com/speakers">Speakers</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
+  <body style="background-color:rgb(19, 30, 35) ;">
+    <h1 class="big_title">
+      <b>Meet The Team</b>
+    </h1>
+    <button class="all_button">
+      All
+    </button>
+
+    <button class="topcommite">
+      Top Committe
+    </button>
+
+    <button class="programme">
+      Programme
+    </button>
+
+    <button class="pubrelate">
+      Public Relations and Documentation
+    </button>
+    
+    <br>
+    <button class="publicity">
+      Publicity and Marketing
+    </button>
+
+    <button class="sponsorship">
+      Sponsorship
+    </button>
+
+    <button class="logistics">
+      Logistics
+    </button>
+
+    <button class="technical">
+      Technical
+    </button>
+
+    <button class="design">
+      Design & Multimedia
+    </button>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row"> 
+             <div class="col">
+              <p>im sorry i cant finish it</p>
+            
+             </div>
+                
+             <div class="col">  
+                 <h1 class>
+                   
+                 </h1>
+                 <p> 
+                   
+                </p>
+                    
+                </div>
+            <div class="col"></div>
+        </div>
+    </div>
+       
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
